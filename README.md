@@ -11,6 +11,12 @@
 
 [GitHub OAuth Documents](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
 
+[Spring Connection to a Production Database](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-connect-to-production-database)
+
+[Maven](https://mvnrepository.com/)
+
+[springboot mybatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
+
 ##工具
 [Git](https://git-scm.com/downloads)
 
