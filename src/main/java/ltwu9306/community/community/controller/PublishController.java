@@ -33,6 +33,7 @@ public class PublishController {
             @RequestParam(value = "tag",required = false) String tag,
             HttpServletRequest request,
             Model model){
+        //model的作用是向页面传递参数
         model.addAttribute("title",title);
         model.addAttribute("description",description);
         model.addAttribute("tag",tag);
@@ -71,12 +72,12 @@ public class PublishController {
             return "publish";
         }
         Question question = new Question();
-        question.setTittle(title);
+        question.setTitle(title);
         question.setDescription(description);
         question.setTag(tag);
         question.setCreator(user.getId());
-        question.setGmtCreae(System.currentTimeMillis());
-        question.setGmtModified(question.getGmtCreae());
+        question.setGmtCreate(System.currentTimeMillis());
+        question.setGmtModified(question.getGmtCreate());
 
         questionMapper.create(question);
         return "redirect:/";

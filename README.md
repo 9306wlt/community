@@ -3,6 +3,8 @@
 ##资料 
 [Spring 文档](https://spring.io/guides)
 
+[Spring Boot 文档](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#using-boot-devtools)
+
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)
 
 [码匠](https://space.bilibili.com/406041527/)
@@ -17,12 +19,16 @@
 
 [springboot mybatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 
+[Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)前端遍历会用到
+
 ##工具
 [Git](https://git-scm.com/downloads)
 
 [Visual Paragram]()
 
 [flyway](https://flywaydb.org/getstarted/firststeps/maven)
+
+[Lombok](https://projectlombok.org/)
 
 ##脚本
 

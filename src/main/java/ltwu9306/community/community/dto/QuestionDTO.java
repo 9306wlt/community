@@ -1,9 +1,10 @@
-package ltwu9306.community.community.model;
+package ltwu9306.community.community.dto;
 
 import lombok.Data;
+import ltwu9306.community.community.model.User;
 
 @Data
-public class Question {
+public class QuestionDTO {
     private Integer id;
     private String title;
     private String description;
@@ -14,5 +15,5 @@ public class Question {
     private Integer viewCount;
     private Integer commentCount;
     private Integer likeCount;
-
+    private User user;
 }
